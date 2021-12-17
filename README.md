@@ -12,9 +12,9 @@ for each block with bitcoin prices in dollars at the given time.
 The app is implemented in Vue.js using Vuetify and Firestore.  
 
 The app is using APIs from the following sources:  
-coincap.io - to fetch the bitcoin price at the given time  
-blockchain.info - to fetch the bitcoin blockchain blocks  
-smartbit.com.au - to fetch the bitcoin blockchain block hash from the block height  
+[coincap.io](https://coincap.io/) - to fetch the bitcoin price at the given time  
+[blockchain.info](https://blockchain.info) - to fetch the bitcoin blockchain blocks  
+[smartbit.com.au](https://smartbit.com.au) - to fetch the bitcoin blockchain block hash from the block height  
 
 some of those APIs are very slow which results in occasional poor performace of the app
 
