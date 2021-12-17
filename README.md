@@ -2,6 +2,8 @@
 
 tethonic is a simple tether explorer app for tether transacions made on bitcoin blockchain.
 
+link to a deployed test version: https://qlist.vercel.app/
+
 Show Block Sums button opens a view with a list of recent blocks containing tether transactions with cumulative sums of all tether transactions
 for each block with bitcoin prices in dollars at the given time.  
 
@@ -16,5 +18,6 @@ smartbit.com.au - to fetch the bitcoin blockchain block hash from the block heig
 
 some of those APIs are very slow which results in occasional poor performace of the app
 
-To use it, click on the link:
-https://tethonic.now.sh/
+## ⚠️&nbsp;&nbsp;Note
+
+- The application uses Google Firestore, so to run the application you'll need to create your own Firestore instance and provide the valid keys to ``src/firebase.tethonic.js``
