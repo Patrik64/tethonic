@@ -2,7 +2,7 @@
 
 tethonic is a simple tether explorer app for tether transacions made on bitcoin blockchain.
 
-link to a deployed test version: https://qlist.vercel.app/
+link to a deployed test version: https://tethonic.now.sh/
 
 ``Show Block Sums`` button opens a view with a list of recent blocks containing tether transactions with cumulative sums of all tether transactions
 for each block with bitcoin prices in dollars at the given time.  
