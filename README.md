@@ -4,12 +4,12 @@ tethonic is a simple tether explorer app for tether transacions made on bitcoin 
 
 link to a deployed test version: https://qlist.vercel.app/
 
-Show Block Sums button opens a view with a list of recent blocks containing tether transactions with cumulative sums of all tether transactions
+``Show Block Sums`` button opens a view with a list of recent blocks containing tether transactions with cumulative sums of all tether transactions
 for each block with bitcoin prices in dollars at the given time.  
 
-Show Block button opens a view for a specific blockchain block that lists all the tether transactions within that block together with the bitcoin price at the given time. 
+``Show Block`` button opens a view for a specific blockchain block that lists all the tether transactions within that block together with the bitcoin price at the given time. 
 
-The app is implemented in vue.js using vuetify and firestore.  
+The app is implemented in Vue.js using Vuetify and Firestore.  
 
 The app is using APIs from the following sources:  
 coincap.io - to fetch the bitcoin price at the given time  
